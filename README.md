@@ -9,4 +9,4 @@
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-Source Code for https://www.tayga.dev
+Source Code for https://tayga.dev
