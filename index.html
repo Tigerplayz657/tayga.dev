@@ -5,7 +5,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: #0C0C0C;">
-<div style="margin-left: 25%; margin-right: 25%; margin-top: 15%; border: 5px; border-color: #EEEEEE; border-radius: 32px; border-style: solid; background-color: black;" align="center">
+<style>
+
+    .element {
+        padding: 5px;
+        border: 10px solid darkgreen;  /* sets initial border color                */
+        animation: pulse 4s infinite;   /* sets effect, execution time and duration */
+    }
+
+    @keyframes pulse {
+        0% {
+            border-color: darkgreen;  /* initial border color */
+        }
+        50% {
+            border-color: lime;       /* second border color  */
+        }
+        100% {
+            border-color: darkgreen;  /* initial border color */
+        }
+    }
+
+</style>
+<div class="element" style="margin-left: 25%; margin-right: 25%; margin-top: 15%; border: 5px; border-color: #EEEEEE; border-radius: 32px; border-style: solid; background-color: black;" align="center">
 <h1 style="">TAYGA.DEV</h1>
 <h1 style="font-size: 20px; position:relative; bottom:30px;">EST 5/30/24</h1>
 <div style="margin-top: -30px;">
