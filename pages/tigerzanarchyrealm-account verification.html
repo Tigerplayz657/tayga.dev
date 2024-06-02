@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Tigerz Anarchy Realm Account Verification</title>
+    <title>Tigerz Anarchy Account Verification</title>
     <meta charset="utf-8">
 </head>
 <div align="center"><body style="background-image:url(../assets/backgrounds/backgroundaccount.png); margin-left: 30%; margin-right: 30%; margin-top: 15%; font-family: Arial, Helvetica, sans-serif;">
@@ -37,8 +37,19 @@
     <h1 style="font-size: 50px; text-shadow: 2px 2px #BA55D3; position:relative; bottom:50px;"><b>Account Verification</b></h1>
     <a style="margin: 33px; font-size: 19px; position:relative; bottom:50px;"href="https://discord.com/invite/mojave-mc">Discord</a>
     <hr size="10" style="border-radius: 30px; margin-left: 50px; margin-right: 50px; background-color: #BA55D3; border-color: #BA55D3; position:relative; bottom:50px;">
-    <a href="HERE"><h1 style="text-shadow: 16px 16px #BA55D3; padding-top: 10%; padding-bottom: 10%; position:relative; bottom:50px;" >Click Here To Verify Account!</h1></a>
-
+    <h1 style=" padding-top: 10%; padding-bottom: 10%; " >You Will Be Redirected to the Account Verification Test In</h1>
+    <div style="font-size: 75px; position:relative; bottom:75px;"id="counter">5</div>
+    <h1 style=" padding-top: 10%; padding-bottom: 10%; position:relative; bottom:175px;" >Seconds</h1>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("https://forms.gle/mL6cmPo2BeStPTXz7");
+            }
+        }, 1000);
+    </script>
 </div>
 </body>
 </div>
