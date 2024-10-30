@@ -1,9 +1,0 @@
- @font-face { font-family: "Pixely"; src: url(assets/fonts/PIXELADE.TTF); } 
-
-h1{
-    color: lime;
-}
-
-body {font-family: "ＭＳ Ｐゴシック"; -webkit-font-smoothing: none; color: white;}
-h1 {font-family: "Pixely"; font-size: 50px;}
-
